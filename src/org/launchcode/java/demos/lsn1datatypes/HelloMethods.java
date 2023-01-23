@@ -4,7 +4,9 @@ public class HelloMethods {
 
     public static void main(String[] args) {
         String message = Message.getMessage("fr");
+        String message2 = Message.getMessage("sp");
         System.out.println(message);
+        System.out.println(message2);
     }
 
 }
